@@ -1,29 +1,65 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# ------------------------------
+# Java / Maven
+# ------------------------------
+target/
+*.class
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
 
-### Eclipse ###
+# Keep Maven Wrapper (should be committed)
+# (não ignore a pasta .mvn para manter o maven-wrapper)
+#!.mvn/wrapper/maven-wrapper.jar
+
+# ------------------------------
+# IntelliJ IDEA / JetBrains
+# ------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ------------------------------
+# Eclipse
+# ------------------------------
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# ------------------------------
+# NetBeans
+# ------------------------------
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# ------------------------------
+# VS Code
+# ------------------------------
 .vscode/
 
-### Mac OS ###
+# ------------------------------
+# OS
+# ------------------------------
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~

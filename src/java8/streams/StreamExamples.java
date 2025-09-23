@@ -12,10 +12,10 @@ import java.util.stream.Stream;
  * Created by WillianF.Bueno on 21/09/2025
  * Exemplos básicos e didáticos da API de Streams introduzida no Java 8.
  */
-public class StreamsBasics {
+public class StreamExamples {
 
     private static final List<Integer> NUMEROS = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-    public static final String TITULO = "Java 8 Streams - Demonstrações";
+    private static final String TITULO = "Java 8 Streams - Demonstrações";
 
     public static void main(String[] args) {
         List<String> nomes = Personagem.toList();

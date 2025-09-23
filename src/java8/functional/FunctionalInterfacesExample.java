@@ -8,7 +8,7 @@ import java.util.function.*;
 public class FunctionalInterfacesExample {
     private static final String TITULO = "Java 8 Functional Interfaces - Demonstrações";
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         PrinterUtil.run(TITULO, PrinterUtil.items(
                 PrinterUtil.entry("Predicate (não vazio - 'Willian')", predicate("Willian")),
                 PrinterUtil.entry("Predicate (não vazio - '')", predicate("")),

@@ -1,4 +1,4 @@
-package java8.optionals;
+package optionals;
 
 import util.PrinterUtil;
 

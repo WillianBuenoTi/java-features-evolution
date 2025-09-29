@@ -1,4 +1,4 @@
-package java8.functional;
+package functional;
 
 @FunctionalInterface
 interface Calculadora {

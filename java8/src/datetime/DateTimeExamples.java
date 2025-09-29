@@ -1,4 +1,4 @@
-package java8.datetime;
+package datetime;
 
 import util.PrinterUtil;
 
